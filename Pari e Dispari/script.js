@@ -12,8 +12,6 @@ function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// HTMLFormControlsCollection.Alog();
-
 let computerNumber = randomNumber(1, 5);
 
 function sumNumbers(num1, num2) {
